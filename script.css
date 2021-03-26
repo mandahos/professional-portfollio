@@ -1,0 +1,13 @@
+
+header h1 {
+    padding: 50px 35px;
+    display: flex;
+    justify-content: left;
+    position: sticky;
+}
+
+.me-img {
+    max-height: 100px;
+    max-width: 100px;
+}
+
