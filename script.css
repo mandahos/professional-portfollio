@@ -1,13 +1,77 @@
+* {
+    box-sizing: border-box;
+    padding: 20;
+    margin: 35;
+}
+body {
+    background-color: grey;
+   
+}
 
-header h1 {
-    padding: 50px 35px;
+header {
+    padding: 18px;
     display: flex;
-    justify-content: left;
-    position: sticky;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: rgb(231, 231, 144);
+   
+}
+header h1 {
+    display: inline-block;
+    }
+
+header nav {
+    margin: 12px 0;
+    font-family: Century Gothic, sans-serif;  
 }
 
-.me-img {
-    max-height: 100px;
-    max-width: 100px;
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    }
+
+    header nav ul li a {
+    display: inline-block;
+    text-decoration: none;
 }
 
+.header nav ul li a:hover {
+    display: inline-block;
+}
+
+.my-image {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.my-info h3 {
+    text-align-last: left;
+    color: navy;
+    font-family: Century Gothic, sans-serif;
+    font-style: italic;
+}
+.my-info p {
+    font-family: Century Gothic, sans-serif;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    justify-content: space-around;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects {
+    border: 5px solid;
+    border-radius: 10px;
+    background-color: gray;
+    color: indigo;
+    padding: 20px 38px;
+    font-size: 18px;
+}
