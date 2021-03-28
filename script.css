@@ -23,24 +23,17 @@ header h1 {
 header nav {
     margin: 12px 0;
     font-family: Century Gothic, sans-serif;  
-    justify-content: space-evenly;
-}
-
-header nav ul {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    list-style: none;
-    }
-
-    header nav ul li a {
-    display: inline-block;
-    text-decoration: none;
 }
 
-.header nav ul li a:hover {
-    display: inline-block;
-}
-
+header nav a {
+     text-decoration: none;
+     padding: 7px 12px;
+     margin-right: 8px;
+ }
+ 
 .my-image {
     display: flex;
     justify-content: space-evenly;
@@ -52,9 +45,11 @@ header nav ul {
     font-family: Century Gothic, sans-serif;
     font-style: italic;
 }
+
 p {
     font-family: Century Gothic, sans-serif;
 }
+
 .my-info p {
     font-family: Century Gothic, sans-serif;
     display: flex;
@@ -84,7 +79,6 @@ p {
     text-decoration: none;
 }    
 
-
 .column {
     float: left;
     width: 33.33%;
@@ -112,7 +106,6 @@ p {
 footer p {
     font-size: 10px;
 }
-
 
 @media screen and (max-width: 980px) {
     header {
