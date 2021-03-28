@@ -23,6 +23,7 @@ header h1 {
 header nav {
     margin: 12px 0;
     font-family: Century Gothic, sans-serif;  
+    justify-content: space-evenly;
 }
 
 header nav ul {
@@ -61,6 +62,29 @@ p {
     align-items: center;
 }
 
+.row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    margin: 50px 0 80px 0;
+    }
+
+.row-projects {
+    border: 10px solid;
+    border-radius: 10px;
+    background-color: gray;
+    color: mediumaquamarine;
+    padding: 50px 78px;
+    font-size: 20px;
+} 
+
+.row-projects a {
+    color: mediumaquamarine;
+    text-decoration: none;
+}    
+
+
 .column {
     float: left;
     width: 33.33%;
@@ -68,6 +92,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 20px 0 45px 0;
 }
 
 .projects {
